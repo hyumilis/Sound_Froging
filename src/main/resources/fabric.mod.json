@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sound_froging",
+	"version": "${0.1}",
+	"name": "Sound Froging",
+	"description": "This is my first mod, so don't expect something crazy, I hpe you will like it!",
+	"authors": [
+		"Hyumilis"
+	],
+	"contact": {
+		"homepage": "https://hyumilis.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sound_froging/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.hyumilis.sound_froging.Sound_Froging"
+		],
+		"fabric-datagen": [
+			"net.hyumilis.sound_froging.Sound_FrogingDataGenerator"
+		],
+        "client": [
+          "net.hyumilis.sound_froging.Sound_FrogingClient"
+        ]
+	},
+	"mixins": [
+		"sound_froging.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
