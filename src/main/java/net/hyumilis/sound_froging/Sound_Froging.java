@@ -13,7 +13,6 @@ public class Sound_Froging implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("Hello Fabric world!");
-
         ModItems.registerModItems();
     }
 }
