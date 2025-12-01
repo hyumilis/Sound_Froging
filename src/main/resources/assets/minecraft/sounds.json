@@ -1,0 +1,104 @@
+{
+  "block.stone_button.click_on": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/button/click_on1",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:custom/button/click_on2",
+        "volume": 1.0,
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:custom/button/click_on3",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ],
+    "replace": true
+  },
+  "block.stone_button.click_off": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/button/click_off",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:custom/button/click_off",
+        "volume": 1.0,
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:custom/button/click_off",
+        "volume": 1.0,
+        "pitch": 1.1
+      }
+    ],
+    "replace": true
+  },
+  "block.wooden_button.click_on": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/button/click_on1",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:custom/button/click_on2",
+        "volume": 1.0,
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:custom/button/click_on3",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ],
+    "replace": true
+  },
+  "block.wooden_button.click_off": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/button/click_off",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:custom/button/click_off",
+        "volume": 1.0,
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:custom/button/click_off",
+        "volume": 1.0,
+        "pitch": 1.1
+      }
+    ],
+    "replace": true
+  },
+  "music.menu": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/music_disc/frog_boogie.ogg",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "stream": true
+      }
+    ],
+    "replace": true
+  },
+  "music_disc.11": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/music_disc/broken_record.ogg",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "stream": true
+      }
+    ],
+    "replace": true
+  }
+}

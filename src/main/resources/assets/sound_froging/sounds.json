@@ -1,0 +1,10 @@
+{
+  "frog_boogie": {
+    "sounds": [
+      {
+        "name": "sound_froging:frog_boogie",
+        "stream": true
+      }
+    ]
+  }
+}

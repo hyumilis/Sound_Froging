@@ -1,3 +1,7 @@
 {
-  "item.sound_froging.mob_drop": "Mob Drop"
+  "item.sound_froging.mob_drop": "Mob Drop",
+  "item.sound_froging.frog_boogie_music_disc": "Frog Boogie",
+  "item.sound_froging.frog_block": "Frog Block",
+
+  "itemgroup.sound_froging.mob_drop_items": "Mob Drop Items"
 }
