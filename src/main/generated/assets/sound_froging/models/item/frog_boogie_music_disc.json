@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "sound_froging:item/frog_boogie_music_disc"
+  }
+}

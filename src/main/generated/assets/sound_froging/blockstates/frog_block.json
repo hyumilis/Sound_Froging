@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "sound_froging:block/frog_block"
+    }
+  }
+}

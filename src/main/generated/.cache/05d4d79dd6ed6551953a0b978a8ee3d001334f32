@@ -1,0 +1,6 @@
+// 1.21.1	2025-12-01T16:35:57.2585715	Sound Froging/Model Definitions
+133bb784ce060c63de313eae221901ecd6df9661 assets\sound_froging\blockstates\frog_block.json
+ea1b88bb313415624f4f219391c1ce4c460073b0 assets\sound_froging\models\item\frog_block.json
+cf91246beba22a46a1b5a3df0dd78ef4eca557f2 assets\sound_froging\models\item\mob_drop.json
+b60b19864c03fbfc99348d8cd9f2e5ffa14510fd assets\sound_froging\models\block\frog_block.json
+92cfaf35b598cc3eb2bc02ebdacaec88210e52fd assets\sound_froging\models\item\frog_boogie_music_disc.json
