@@ -6,6 +6,6 @@
   "description": {
     "translate": "item.sound_froging.frog_boogie_music_disc.desc"
   },
-  "length_in_seconds": 7,
+  "length_in_seconds": 84,
   "second_event": "sound_froging:frog_boogie"
 }

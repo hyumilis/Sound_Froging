@@ -28,13 +28,9 @@ public class ModSounds {
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = Identifier.of(Sound_Froging.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
-    }
-
-    ;
+    };
 
     public static void registerSound() {
         Sound_Froging.LOGGER.info("register sound for" + Sound_Froging.MOD_ID);
-    }
-
-    ;
+    };
 }

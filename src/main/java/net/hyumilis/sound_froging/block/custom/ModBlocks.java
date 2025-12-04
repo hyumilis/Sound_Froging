@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block FROG_BLOCK = registerBlock("frog_block",
-    new Block(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).luminance((state) -> 13).allowsSpawning(Blocks::always)));
+    new Block(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.SLIME).luminance((state) -> 13).allowsSpawning(Blocks::always).slipperiness(1.02F)));
 
     private static Block registerBlock(String name, Block block){
         registerModBlockItem(name, block);

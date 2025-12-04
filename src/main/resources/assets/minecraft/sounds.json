@@ -79,11 +79,24 @@
     ],
     "replace": true
   },
+  "ui.button.click": {
+    "replace": true,
+    "sounds": [
+      "minecraft:custom/ui/click1",
+      "minecraft:custom/ui/click2"
+    ]
+  },
+  "ui.slider.click": {
+    "replace": true,
+    "sounds": [
+      "minecraft:custom/ui/slider_click"
+    ]
+  },
   "music.menu": {
     "sounds": [
       {
-        "name": "minecraft:custom/music_disc/frog_boogie.ogg",
-        "volume": 1.0,
+        "name": "minecraft:custom/music/menu_theme",
+        "volume": 0.4,
         "pitch": 1.0,
         "stream": true
       }
@@ -93,10 +106,234 @@
   "music_disc.11": {
     "sounds": [
       {
-        "name": "minecraft:custom/music_disc/broken_record.ogg",
+        "name": "minecraft:custom/records/11",
         "volume": 1.0,
         "pitch": 1.0,
         "stream": true
+      }
+    ],
+    "replace": true
+  },
+  "block.wooden_door.open": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/door/wood_open",
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:custom/door/wood_open",
+        "pitch": 1.1,
+        "volume": 1.1
+      },
+      {
+        "name": "minecraft:custom/door/wood_open",
+        "pitch": 0.8
+      }
+    ],
+    "replace": true
+  },
+  "block.wooden_door.close": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/door/wood_close",
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:custom/door/wood_close",
+        "pitch": 1.1
+      },
+      {
+        "name": "minecraft:custom/door/wood_close",
+        "pitch": 0.8,
+        "volume": 1.1
+      }
+    ],
+    "replace": true
+  },
+  "block.iron_door.open": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/door/iron_open",
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:custom/door/iron_open",
+        "pitch": 1.1,
+        "volume": 1.1
+      },
+      {
+        "name": "minecraft:custom/door/iron_open",
+        "pitch": 0.9
+      }
+    ],
+    "replace": true
+  },
+  "block.iron_door.close": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/door/iron_close",
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:custom/door/iron_close",
+        "pitch": 1.2,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:custom/door/iron_close",
+        "pitch": 0.9
+      }
+    ],
+    "replace": true
+  },
+  "block.wooden_trapdoor.close": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/door/wood_open",
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:custom/door/wood_open",
+        "pitch": 1.1,
+        "volume": 1.1
+      },
+      {
+        "name": "minecraft:custom/door/wood_open",
+        "pitch": 0.8
+      }
+    ],
+    "replace": true
+  },
+  "block.wooden_trapdoor.open": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/door/wood_close",
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:custom/door/wood_close",
+        "pitch": 1.1
+      },
+      {
+        "name": "minecraft:custom/door/wood_close",
+        "pitch": 0.8,
+        "volume": 1.1
+      }
+    ],
+    "replace": true
+  },
+  "block.iron_trapdoor.open": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/door/iron_open",
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:custom/door/iron_open",
+        "pitch": 1.1,
+        "volume": 1.1
+      },
+      {
+        "name": "minecraft:custom/door/iron_open",
+        "pitch": 0.9
+      }
+    ],
+    "replace": true
+  },
+  "block.iron_trapdoor.close": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/door/iron_close",
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:custom/door/iron_close",
+        "pitch": 1.2,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:custom/door/iron_close",
+        "pitch": 0.9
+      }
+    ],
+    "replace": true
+  },
+  "block.wooden_pressure_plate.click_off": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/door/wood_open",
+        "pitch": 1.2,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:custom/door/wood_open",
+        "pitch": 1.3,
+        "volume": 0.4
+      }
+    ],
+    "replace": true
+  },
+  "block.wooden_pressure_plate.click_on": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/door/wood_close",
+        "pitch": 1.2,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:custom/door/wood_close",
+        "pitch": 1.3,
+        "volume": 0.4
+      }
+    ],
+    "replace": true
+  },
+  "block.metal_pressure_plate.click_off": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/door/iron_open",
+        "pitch": 1.2,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:custom/door/iron_open",
+        "pitch": 1.3,
+        "volume": 0.4
+      }
+    ],
+    "replace": true
+  },
+  "block.metal_pressure_plate.click_on": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/door/iron_close",
+        "pitch": 1.2,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:custom/door/iron_close",
+        "pitch": 1.3,
+        "volume": 0.4
+      }
+    ],
+    "replace": true
+  },
+  "block.chest.open": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/button/click_on1",
+        "pitch": 0.8,
+        "volume": 1.9
+      }
+    ],
+    "replace": true
+  },
+  "block.chest.locked": {
+    "sounds": [
+      {
+        "name": "minecraft:custom/button/click_on1",
+        "pitch": 0.5,
+        "volume": 0.6
       }
     ],
     "replace": true

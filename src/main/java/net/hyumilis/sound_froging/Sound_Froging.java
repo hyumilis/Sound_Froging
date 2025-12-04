@@ -16,6 +16,7 @@ public class Sound_Froging implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItemGroup.registerItemGroup();
+
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
 
